@@ -26,7 +26,7 @@ jobs:
 
       - name: Render every theme and validate output
         env:
-          THM_USERNAME: Keizer
+          THM_USERNAME: PatrickBateman016
         run: |
           set -euo pipefail
           for theme in midnight matrix synthwave inferno frost rotate random; do
